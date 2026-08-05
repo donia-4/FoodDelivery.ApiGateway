@@ -1,0 +1,688 @@
+2026-08-04 07:59:43.739 +03:00 [INF] RequestId: 0HNNHSJITHB67:00000017, PreviousRequestId: -
+Rate limiting is disabled for route '/api/auth/{everything}' via the EnableRateLimiting option.
+2026-08-04 07:59:43.797 +03:00 [INF] RequestId: 0HNNHSJITHB67:00000017, PreviousRequestId: -
+No authentication is required for the path '/api/auth/register' in the route /api/auth/{everything}.
+2026-08-04 07:59:45.448 +03:00 [INF] RequestId: 0HNNHSJITHB67:00000017, PreviousRequestId: -
+200 OK status code of request URI: https://identityservices.runasp.net/api/auth/register
+2026-08-04 08:00:44.018 +03:00 [INF] RequestId: 0HNNHSJITHB67:00000019, PreviousRequestId: -
+Rate limiting is disabled for route '/api/auth/{everything}' via the EnableRateLimiting option.
+2026-08-04 08:00:44.027 +03:00 [INF] RequestId: 0HNNHSJITHB67:00000019, PreviousRequestId: -
+No authentication is required for the path '/api/auth/register' in the route /api/auth/{everything}.
+2026-08-04 08:00:44.427 +03:00 [INF] RequestId: 0HNNHSJITHB67:00000019, PreviousRequestId: -
+200 OK status code of request URI: https://identityservices.runasp.net/api/auth/register
+2026-08-04 08:01:21.849 +03:00 [INF] RequestId: 0HNNHSJITHB67:0000001B, PreviousRequestId: -
+Rate limiting is disabled for route '/api/auth/{everything}' via the EnableRateLimiting option.
+2026-08-04 08:01:21.851 +03:00 [INF] RequestId: 0HNNHSJITHB67:0000001B, PreviousRequestId: -
+No authentication is required for the path '/api/auth/login' in the route /api/auth/{everything}.
+2026-08-04 08:01:22.144 +03:00 [INF] RequestId: 0HNNHSJITHB67:0000001B, PreviousRequestId: -
+200 OK status code of request URI: https://identityservices.runasp.net/api/auth/login
+2026-08-04 08:06:01.758 +03:00 [INF] RequestId: 0HNNHSJITHB68:00000001, PreviousRequestId: -
+Rate limiting is disabled for route '/api/restaurants/{everything}' via the EnableRateLimiting option.
+2026-08-04 08:06:01.762 +03:00 [INF] RequestId: 0HNNHSJITHB68:00000001, PreviousRequestId: -
+No authentication is required for the path '/api/restaurants/request' in the route /api/restaurants/{everything}.
+2026-08-04 08:06:02.382 +03:00 [WRN] RequestId: 0HNNHSJITHB68:00000001, PreviousRequestId: -
+409 Conflict status code of request URI: https://localhost:7126/api/restaurants/request
+2026-08-04 08:06:27.651 +03:00 [INF] RequestId: 0HNNHSJITHB68:00000003, PreviousRequestId: -
+Rate limiting is disabled for route '/api/restaurants/{everything}' via the EnableRateLimiting option.
+2026-08-04 08:06:27.653 +03:00 [INF] RequestId: 0HNNHSJITHB68:00000003, PreviousRequestId: -
+No authentication is required for the path '/api/restaurants/request' in the route /api/restaurants/{everything}.
+2026-08-04 08:06:40.560 +03:00 [INF] RequestId: 0HNNHSJITHB68:00000003, PreviousRequestId: -
+201 Created status code of request URI: https://localhost:7126/api/restaurants/request
+2026-08-04 08:07:22.205 +03:00 [INF] RequestId: 0HNNHSJITHB68:00000005, PreviousRequestId: -
+Rate limiting is disabled for route '/api/restaurants/{everything}' via the EnableRateLimiting option.
+2026-08-04 08:07:22.207 +03:00 [INF] RequestId: 0HNNHSJITHB68:00000005, PreviousRequestId: -
+No authentication is required for the path '/api/restaurants/63fa525e-7549-4926-a11d-edc73aa5367a/review' in the route /api/restaurants/{everything}.
+2026-08-04 08:07:22.529 +03:00 [INF] RequestId: 0HNNHSJITHB68:00000005, PreviousRequestId: -
+200 OK status code of request URI: https://localhost:7126/api/restaurants/63fa525e-7549-4926-a11d-edc73aa5367a/review
+2026-08-04 08:11:08.631 +03:00 [INF] RequestId: 0HNNHSJITHB68:0000000B, PreviousRequestId: -
+Rate limiting is disabled for route '/api/restaurants/{everything}' via the EnableRateLimiting option.
+2026-08-04 08:11:08.641 +03:00 [INF] RequestId: 0HNNHSJITHB68:0000000B, PreviousRequestId: -
+No authentication is required for the path '/api/restaurants/63fa525e-7549-4926-a11d-edc73aa5367a' in the route /api/restaurants/{everything}.
+2026-08-04 08:11:08.699 +03:00 [INF] RequestId: 0HNNHSJITHB68:0000000B, PreviousRequestId: -
+200 OK status code of request URI: https://localhost:7126/api/restaurants/63fa525e-7549-4926-a11d-edc73aa5367a
+2026-08-04 08:18:00.375 +03:00 [INF] RequestId: 0HNNHSJITHB68:0000000F, PreviousRequestId: -
+Rate limiting is disabled for route '/restaurant/orders/{everything}' via the EnableRateLimiting option.
+2026-08-04 08:18:00.388 +03:00 [INF] RequestId: 0HNNHSJITHB68:0000000F, PreviousRequestId: -
+The path '/restaurant/orders/11111111-1111-1111-1111-111111111111' is an authenticated route! AuthenticationMiddleware checking if client is authenticated...
+2026-08-04 08:18:00.396 +03:00 [WRN] RequestId: 0HNNHSJITHB68:0000000F, PreviousRequestId: -
+Client has NOT been authenticated for path '/restaurant/orders/11111111-1111-1111-1111-111111111111' and pipeline error set. UnauthenticatedError: Request for authenticated route '/restaurant/orders/11111111-1111-1111-1111-111111111111' was unauthenticated!;
+2026-08-04 08:18:00.400 +03:00 [WRN] RequestId: 0HNNHSJITHB68:0000000F, PreviousRequestId: -
+ResponderMiddleware found 1 error ->
+UnauthenticatedError: Request for authenticated route '/restaurant/orders/11111111-1111-1111-1111-111111111111' was unauthenticated!
+Setting error response for request: GET /restaurant/orders/11111111-1111-1111-1111-111111111111
+2026-08-04 08:18:12.302 +03:00 [INF] RequestId: 0HNNHSJITHB68:00000013, PreviousRequestId: -
+Rate limiting is disabled for route '/api/auth/{everything}' via the EnableRateLimiting option.
+2026-08-04 08:18:12.306 +03:00 [INF] RequestId: 0HNNHSJITHB68:00000013, PreviousRequestId: -
+No authentication is required for the path '/api/auth/login' in the route /api/auth/{everything}.
+2026-08-04 08:18:12.979 +03:00 [INF] RequestId: 0HNNHSJITHB68:00000013, PreviousRequestId: -
+200 OK status code of request URI: https://identityservices.runasp.net/api/auth/login
+2026-08-04 08:18:38.297 +03:00 [INF] RequestId: 0HNNHSJITHB68:00000019, PreviousRequestId: -
+Rate limiting is disabled for route '/restaurant/orders/{everything}' via the EnableRateLimiting option.
+2026-08-04 08:18:38.301 +03:00 [INF] RequestId: 0HNNHSJITHB68:00000019, PreviousRequestId: -
+The path '/restaurant/orders/11111111-1111-1111-1111-111111111111' is an authenticated route! AuthenticationMiddleware checking if client is authenticated...
+2026-08-04 08:18:38.304 +03:00 [INF] RequestId: 0HNNHSJITHB68:00000019, PreviousRequestId: -
+Client has been authenticated for path '/restaurant/orders/11111111-1111-1111-1111-111111111111' by 'AuthenticationTypes.Federation' scheme.
+2026-08-04 08:18:41.674 +03:00 [INF] RequestId: 0HNNHSJITHB68:00000019, PreviousRequestId: -
+200 OK status code of request URI: https://localhost:7235/restaurant/orders/11111111-1111-1111-1111-111111111111
+2026-08-04 08:19:49.588 +03:00 [INF] RequestId: 0HNNHSJITHB68:0000001B, PreviousRequestId: -
+Rate limiting is disabled for route '/restaurant/orders/{everything}' via the EnableRateLimiting option.
+2026-08-04 08:19:49.591 +03:00 [INF] RequestId: 0HNNHSJITHB68:0000001B, PreviousRequestId: -
+The path '/restaurant/orders/11111111-1111-1111-1111-111111111111' is an authenticated route! AuthenticationMiddleware checking if client is authenticated...
+2026-08-04 08:19:49.594 +03:00 [INF] RequestId: 0HNNHSJITHB68:0000001B, PreviousRequestId: -
+Client has been authenticated for path '/restaurant/orders/11111111-1111-1111-1111-111111111111' by 'AuthenticationTypes.Federation' scheme.
+2026-08-04 08:19:49.633 +03:00 [INF] RequestId: 0HNNHSJITHB68:0000001B, PreviousRequestId: -
+200 OK status code of request URI: https://localhost:7235/restaurant/orders/11111111-1111-1111-1111-111111111111
+2026-08-04 08:20:00.807 +03:00 [INF] RequestId: 0HNNHSJITHB68:0000001D, PreviousRequestId: -
+Rate limiting is disabled for route '/restaurant/orders/{everything}' via the EnableRateLimiting option.
+2026-08-04 08:20:00.810 +03:00 [INF] RequestId: 0HNNHSJITHB68:0000001D, PreviousRequestId: -
+The path '/restaurant/orders/22222222-2222-2222-2222-222222222222' is an authenticated route! AuthenticationMiddleware checking if client is authenticated...
+2026-08-04 08:20:00.812 +03:00 [INF] RequestId: 0HNNHSJITHB68:0000001D, PreviousRequestId: -
+Client has been authenticated for path '/restaurant/orders/22222222-2222-2222-2222-222222222222' by 'AuthenticationTypes.Federation' scheme.
+2026-08-04 08:20:01.175 +03:00 [INF] RequestId: 0HNNHSJITHB68:0000001D, PreviousRequestId: -
+200 OK status code of request URI: https://localhost:7235/restaurant/orders/22222222-2222-2222-2222-222222222222
+2026-08-04 08:20:16.810 +03:00 [INF] RequestId: 0HNNHSJITHB68:0000001F, PreviousRequestId: -
+Rate limiting is disabled for route '/restaurant/orders/{everything}' via the EnableRateLimiting option.
+2026-08-04 08:20:16.812 +03:00 [INF] RequestId: 0HNNHSJITHB68:0000001F, PreviousRequestId: -
+The path '/restaurant/orders/11111111-1111-1111-1111-111111111111' is an authenticated route! AuthenticationMiddleware checking if client is authenticated...
+2026-08-04 08:20:16.815 +03:00 [INF] RequestId: 0HNNHSJITHB68:0000001F, PreviousRequestId: -
+Client has been authenticated for path '/restaurant/orders/11111111-1111-1111-1111-111111111111' by 'AuthenticationTypes.Federation' scheme.
+2026-08-04 08:20:16.823 +03:00 [INF] RequestId: 0HNNHSJITHB68:0000001F, PreviousRequestId: -
+200 OK status code of request URI: https://localhost:7235/restaurant/orders/11111111-1111-1111-1111-111111111111
+2026-08-04 08:20:34.089 +03:00 [INF] RequestId: 0HNNHSJITHB68:00000021, PreviousRequestId: -
+Rate limiting is disabled for route '/restaurant/orders/{everything}' via the EnableRateLimiting option.
+2026-08-04 08:20:34.092 +03:00 [INF] RequestId: 0HNNHSJITHB68:00000021, PreviousRequestId: -
+The path '/restaurant/orders/accept/11111111-1111-1111-1111-111111111111' is an authenticated route! AuthenticationMiddleware checking if client is authenticated...
+2026-08-04 08:20:34.093 +03:00 [INF] RequestId: 0HNNHSJITHB68:00000021, PreviousRequestId: -
+Client has been authenticated for path '/restaurant/orders/accept/11111111-1111-1111-1111-111111111111' by 'AuthenticationTypes.Federation' scheme.
+2026-08-04 08:20:34.173 +03:00 [WRN] RequestId: 0HNNHSJITHB68:00000021, PreviousRequestId: -
+409 Conflict status code of request URI: https://localhost:7235/restaurant/orders/accept/11111111-1111-1111-1111-111111111111
+2026-08-04 08:20:42.177 +03:00 [INF] RequestId: 0HNNHSJITHB68:00000023, PreviousRequestId: -
+Rate limiting is disabled for route '/restaurant/orders/{everything}' via the EnableRateLimiting option.
+2026-08-04 08:20:42.180 +03:00 [INF] RequestId: 0HNNHSJITHB68:00000023, PreviousRequestId: -
+The path '/restaurant/orders/accept/22222222-2222-2222-2222-222222222222' is an authenticated route! AuthenticationMiddleware checking if client is authenticated...
+2026-08-04 08:20:42.182 +03:00 [INF] RequestId: 0HNNHSJITHB68:00000023, PreviousRequestId: -
+Client has been authenticated for path '/restaurant/orders/accept/22222222-2222-2222-2222-222222222222' by 'AuthenticationTypes.Federation' scheme.
+2026-08-04 08:20:42.193 +03:00 [WRN] RequestId: 0HNNHSJITHB68:00000023, PreviousRequestId: -
+409 Conflict status code of request URI: https://localhost:7235/restaurant/orders/accept/22222222-2222-2222-2222-222222222222
+2026-08-04 08:22:10.999 +03:00 [INF] RequestId: 0HNNHSJITHB68:00000025, PreviousRequestId: -
+Rate limiting is disabled for route '/restaurant/orders/{everything}' via the EnableRateLimiting option.
+2026-08-04 08:22:11.001 +03:00 [INF] RequestId: 0HNNHSJITHB68:00000025, PreviousRequestId: -
+The path '/restaurant/orders/prepare/22222222-2222-2222-2222-222222222222' is an authenticated route! AuthenticationMiddleware checking if client is authenticated...
+2026-08-04 08:22:11.005 +03:00 [INF] RequestId: 0HNNHSJITHB68:00000025, PreviousRequestId: -
+Client has been authenticated for path '/restaurant/orders/prepare/22222222-2222-2222-2222-222222222222' by 'AuthenticationTypes.Federation' scheme.
+2026-08-04 08:22:11.038 +03:00 [WRN] RequestId: 0HNNHSJITHB68:00000025, PreviousRequestId: -
+409 Conflict status code of request URI: https://localhost:7235/restaurant/orders/prepare/22222222-2222-2222-2222-222222222222
+2026-08-04 08:22:59.583 +03:00 [INF] RequestId: 0HNNHSJITHB68:00000027, PreviousRequestId: -
+Rate limiting is disabled for route '/restaurant/orders/{everything}' via the EnableRateLimiting option.
+2026-08-04 08:22:59.585 +03:00 [INF] RequestId: 0HNNHSJITHB68:00000027, PreviousRequestId: -
+The path '/restaurant/orders/ready/11111111-1111-1111-1111-111111111111' is an authenticated route! AuthenticationMiddleware checking if client is authenticated...
+2026-08-04 08:22:59.588 +03:00 [INF] RequestId: 0HNNHSJITHB68:00000027, PreviousRequestId: -
+Client has been authenticated for path '/restaurant/orders/ready/11111111-1111-1111-1111-111111111111' by 'AuthenticationTypes.Federation' scheme.
+2026-08-04 08:22:59.601 +03:00 [WRN] RequestId: 0HNNHSJITHB68:00000027, PreviousRequestId: -
+409 Conflict status code of request URI: https://localhost:7235/restaurant/orders/ready/11111111-1111-1111-1111-111111111111
+2026-08-04 08:23:05.991 +03:00 [INF] RequestId: 0HNNHSJITHB68:00000029, PreviousRequestId: -
+Rate limiting is disabled for route '/restaurant/orders/{everything}' via the EnableRateLimiting option.
+2026-08-04 08:23:05.993 +03:00 [INF] RequestId: 0HNNHSJITHB68:00000029, PreviousRequestId: -
+The path '/restaurant/orders/ready/22222222-2222-2222-2222-222222222222' is an authenticated route! AuthenticationMiddleware checking if client is authenticated...
+2026-08-04 08:23:05.996 +03:00 [INF] RequestId: 0HNNHSJITHB68:00000029, PreviousRequestId: -
+Client has been authenticated for path '/restaurant/orders/ready/22222222-2222-2222-2222-222222222222' by 'AuthenticationTypes.Federation' scheme.
+2026-08-04 08:23:19.445 +03:00 [INF] RequestId: 0HNNHSJITHB68:00000029, PreviousRequestId: -
+102 unknown status code of request URI: 
+2026-08-04 08:23:19.448 +03:00 [WRN] RequestId: 0HNNHSJITHB68:00000029, PreviousRequestId: -
+ResponderMiddleware found 1 error ->
+ConnectionToDownstreamServiceError: Error connecting to downstream service, exception: System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Ocelot.Requester.TimeoutDelegatingHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.<SendAsync>g__SendAsyncWithTelemetry|6_0(HttpMessageHandler handler, HttpRequestMessage request, CancellationToken cancellationToken)
+   at Ocelot.Requester.MessageInvokerHttpRequester.GetResponse(HttpContext httpContext)
+Setting error response for request: POST /restaurant/orders/ready/22222222-2222-2222-2222-222222222222
+2026-08-04 14:20:24.358 +03:00 [INF] RequestId: 0HNNI3950RIPA:0000000B, PreviousRequestId: -
+Rate limiting is disabled for route '/api/auth/{everything}' via the EnableRateLimiting option.
+2026-08-04 14:20:24.410 +03:00 [INF] RequestId: 0HNNI3950RIPA:0000000B, PreviousRequestId: -
+No authentication is required for the path '/api/auth/login' in the route /api/auth/{everything}.
+2026-08-04 14:20:25.721 +03:00 [INF] RequestId: 0HNNI3950RIPA:0000000B, PreviousRequestId: -
+200 OK status code of request URI: https://identityservices.runasp.net/api/auth/login
+2026-08-04 14:20:55.819 +03:00 [INF] RequestId: 0HNNI3950RIPA:0000000F, PreviousRequestId: -
+Rate limiting is disabled for route '/restaurant/orders/{everything}' via the EnableRateLimiting option.
+2026-08-04 14:20:55.823 +03:00 [INF] RequestId: 0HNNI3950RIPA:0000000F, PreviousRequestId: -
+The path '/restaurant/orders/prepare/22222222-2222-2222-2222-222222222222' is an authenticated route! AuthenticationMiddleware checking if client is authenticated...
+2026-08-04 14:20:55.827 +03:00 [INF] RequestId: 0HNNI3950RIPA:0000000F, PreviousRequestId: -
+Client has been authenticated for path '/restaurant/orders/prepare/22222222-2222-2222-2222-222222222222' by 'AuthenticationTypes.Federation' scheme.
+2026-08-04 14:20:56.332 +03:00 [WRN] RequestId: 0HNNI3950RIPA:0000000F, PreviousRequestId: -
+409 Conflict status code of request URI: https://localhost:7235/restaurant/orders/prepare/22222222-2222-2222-2222-222222222222
+2026-08-04 14:21:54.576 +03:00 [INF] RequestId: 0HNNI3950RIPA:00000011, PreviousRequestId: -
+Rate limiting is disabled for route '/restaurant/orders/{everything}' via the EnableRateLimiting option.
+2026-08-04 14:21:54.578 +03:00 [INF] RequestId: 0HNNI3950RIPA:00000011, PreviousRequestId: -
+The path '/restaurant/orders/ready/22222222-2222-2222-2222-222222222222' is an authenticated route! AuthenticationMiddleware checking if client is authenticated...
+2026-08-04 14:21:54.580 +03:00 [INF] RequestId: 0HNNI3950RIPA:00000011, PreviousRequestId: -
+Client has been authenticated for path '/restaurant/orders/ready/22222222-2222-2222-2222-222222222222' by 'AuthenticationTypes.Federation' scheme.
+2026-08-04 14:22:03.986 +03:00 [INF] RequestId: 0HNNI3950RIPA:00000011, PreviousRequestId: -
+102 unknown status code of request URI: 
+2026-08-04 14:22:03.994 +03:00 [WRN] RequestId: 0HNNI3950RIPA:00000011, PreviousRequestId: -
+ResponderMiddleware found 1 error ->
+ConnectionToDownstreamServiceError: Error connecting to downstream service, exception: System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.<CheckUsabilityOnScavenge>g__ReadAheadWithZeroByteReadAsync|39_0()
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Ocelot.Requester.TimeoutDelegatingHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.<SendAsync>g__SendAsyncWithTelemetry|6_0(HttpMessageHandler handler, HttpRequestMessage request, CancellationToken cancellationToken)
+   at Ocelot.Requester.MessageInvokerHttpRequester.GetResponse(HttpContext httpContext)
+Setting error response for request: POST /restaurant/orders/ready/22222222-2222-2222-2222-222222222222
+2026-08-04 14:23:09.169 +03:00 [INF] RequestId: 0HNNI3950RIPA:00000013, PreviousRequestId: -
+Rate limiting is disabled for route '/restaurant/orders/{everything}' via the EnableRateLimiting option.
+2026-08-04 14:23:09.178 +03:00 [INF] RequestId: 0HNNI3950RIPA:00000013, PreviousRequestId: -
+The path '/restaurant/orders/ready/22222222-2222-2222-2222-222222222222' is an authenticated route! AuthenticationMiddleware checking if client is authenticated...
+2026-08-04 14:23:09.182 +03:00 [INF] RequestId: 0HNNI3950RIPA:00000013, PreviousRequestId: -
+Client has been authenticated for path '/restaurant/orders/ready/22222222-2222-2222-2222-222222222222' by 'AuthenticationTypes.Federation' scheme.
+2026-08-04 14:23:24.657 +03:00 [WRN] RequestId: 0HNNI3950RIPA:00000013, PreviousRequestId: -
+500 Internal Server Error status code of request URI: https://localhost:7235/restaurant/orders/ready/22222222-2222-2222-2222-222222222222
+2026-08-04 14:50:08.324 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:7126)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.InjectNewHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionWaiter`1.WaitForConnectionWithTelemetryAsync(HttpRequestMessage request, HttpConnectionPool pool, Boolean async, CancellationToken requestCancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at MMLib.SwaggerForOcelot.Repositories.DownstreamSwaggerDocsRepository.GetSwaggerJsonAsync(RouteOptions route, SwaggerEndPointOptions endPoint, String docsVersion)
+   at MMLib.SwaggerForOcelot.Middleware.SwaggerForOcelotMiddleware.Invoke(HttpContext context, ISwaggerEndPointProvider swaggerEndPointRepository, IDownstreamSwaggerDocsRepository downstreamSwaggerDocs)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.InvokeCore(HttpContext context, PathString matchedPath, PathString remainingPath)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-08-04 14:50:36.158 +03:00 [INF] RequestId: 0HNNI3Q2J5TR3:00000013, PreviousRequestId: -
+Rate limiting is disabled for route '/api/auth/{everything}' via the EnableRateLimiting option.
+2026-08-04 14:50:36.166 +03:00 [INF] RequestId: 0HNNI3Q2J5TR3:00000013, PreviousRequestId: -
+No authentication is required for the path '/api/auth/login' in the route /api/auth/{everything}.
+2026-08-04 14:50:36.874 +03:00 [INF] RequestId: 0HNNI3Q2J5TR3:00000013, PreviousRequestId: -
+200 OK status code of request URI: https://identityservices.runasp.net/api/auth/login
+2026-08-04 14:51:20.726 +03:00 [INF] RequestId: 0HNNI3Q2J5TR3:00000017, PreviousRequestId: -
+Rate limiting is disabled for route '/restaurant/orders/{everything}' via the EnableRateLimiting option.
+2026-08-04 14:51:20.730 +03:00 [INF] RequestId: 0HNNI3Q2J5TR3:00000017, PreviousRequestId: -
+The path '/restaurant/orders/ready/22222222-2222-2222-2222-222222222222' is an authenticated route! AuthenticationMiddleware checking if client is authenticated...
+2026-08-04 14:51:20.737 +03:00 [INF] RequestId: 0HNNI3Q2J5TR3:00000017, PreviousRequestId: -
+Client has been authenticated for path '/restaurant/orders/ready/22222222-2222-2222-2222-222222222222' by 'AuthenticationTypes.Federation' scheme.
+2026-08-04 14:51:21.427 +03:00 [INF] RequestId: 0HNNI3Q2J5TR3:00000017, PreviousRequestId: -
+200 OK status code of request URI: https://localhost:7235/restaurant/orders/ready/22222222-2222-2222-2222-222222222222
+2026-08-04 14:51:41.186 +03:00 [INF] RequestId: 0HNNI3Q2J5TR3:00000019, PreviousRequestId: -
+Rate limiting is disabled for route '/restaurant/orders/{everything}' via the EnableRateLimiting option.
+2026-08-04 14:51:41.189 +03:00 [INF] RequestId: 0HNNI3Q2J5TR3:00000019, PreviousRequestId: -
+The path '/restaurant/orders/22222222-2222-2222-2222-222222222222' is an authenticated route! AuthenticationMiddleware checking if client is authenticated...
+2026-08-04 14:51:41.191 +03:00 [INF] RequestId: 0HNNI3Q2J5TR3:00000019, PreviousRequestId: -
+Client has been authenticated for path '/restaurant/orders/22222222-2222-2222-2222-222222222222' by 'AuthenticationTypes.Federation' scheme.
+2026-08-04 14:51:42.566 +03:00 [INF] RequestId: 0HNNI3Q2J5TR3:00000019, PreviousRequestId: -
+200 OK status code of request URI: https://localhost:7235/restaurant/orders/22222222-2222-2222-2222-222222222222
+2026-08-04 14:54:21.677 +03:00 [INF] RequestId: 0HNNI3Q2J5TR3:0000001B, PreviousRequestId: -
+Rate limiting is disabled for route '/restaurant/orders/{everything}' via the EnableRateLimiting option.
+2026-08-04 14:54:21.680 +03:00 [INF] RequestId: 0HNNI3Q2J5TR3:0000001B, PreviousRequestId: -
+The path '/restaurant/orders/22222222-2222-2222-2222-222222222222' is an authenticated route! AuthenticationMiddleware checking if client is authenticated...
+2026-08-04 14:54:21.681 +03:00 [INF] RequestId: 0HNNI3Q2J5TR3:0000001B, PreviousRequestId: -
+Client has been authenticated for path '/restaurant/orders/22222222-2222-2222-2222-222222222222' by 'AuthenticationTypes.Federation' scheme.
+2026-08-04 14:54:21.729 +03:00 [INF] RequestId: 0HNNI3Q2J5TR3:0000001B, PreviousRequestId: -
+200 OK status code of request URI: https://localhost:7235/restaurant/orders/22222222-2222-2222-2222-222222222222
+2026-08-04 14:54:40.078 +03:00 [INF] RequestId: 0HNNI3Q2J5TR3:0000001D, PreviousRequestId: -
+Rate limiting is disabled for route '/restaurant/orders/{everything}' via the EnableRateLimiting option.
+2026-08-04 14:54:40.081 +03:00 [INF] RequestId: 0HNNI3Q2J5TR3:0000001D, PreviousRequestId: -
+The path '/restaurant/orders/22222222-2222-2222-2222-222222222222' is an authenticated route! AuthenticationMiddleware checking if client is authenticated...
+2026-08-04 14:54:40.083 +03:00 [INF] RequestId: 0HNNI3Q2J5TR3:0000001D, PreviousRequestId: -
+Client has been authenticated for path '/restaurant/orders/22222222-2222-2222-2222-222222222222' by 'AuthenticationTypes.Federation' scheme.
+2026-08-04 14:54:40.092 +03:00 [INF] RequestId: 0HNNI3Q2J5TR3:0000001D, PreviousRequestId: -
+200 OK status code of request URI: https://localhost:7235/restaurant/orders/22222222-2222-2222-2222-222222222222
+2026-08-04 15:02:21.924 +03:00 [INF] RequestId: 0HNNI40L842FU:00000009, PreviousRequestId: -
+Rate limiting is disabled for route '/api/auth/{everything}' via the EnableRateLimiting option.
+2026-08-04 15:02:21.986 +03:00 [INF] RequestId: 0HNNI40L842FU:00000009, PreviousRequestId: -
+No authentication is required for the path '/api/auth/login' in the route /api/auth/{everything}.
+2026-08-04 15:02:22.754 +03:00 [INF] RequestId: 0HNNI40L842FU:00000009, PreviousRequestId: -
+200 OK status code of request URI: https://identityservices.runasp.net/api/auth/login
+2026-08-04 15:11:42.975 +03:00 [INF] RequestId: 0HNNI40L842FU:0000000D, PreviousRequestId: -
+Rate limiting is disabled for route '/restaurant/orders/{everything}' via the EnableRateLimiting option.
+2026-08-04 15:11:42.979 +03:00 [INF] RequestId: 0HNNI40L842FU:0000000D, PreviousRequestId: -
+The path '/restaurant/orders/22222222-2222-2222-2222-222222222222' is an authenticated route! AuthenticationMiddleware checking if client is authenticated...
+2026-08-04 15:11:42.984 +03:00 [INF] RequestId: 0HNNI40L842FU:0000000D, PreviousRequestId: -
+Client has been authenticated for path '/restaurant/orders/22222222-2222-2222-2222-222222222222' by 'AuthenticationTypes.Federation' scheme.
+2026-08-04 15:11:47.223 +03:00 [INF] RequestId: 0HNNI40L842FU:0000000D, PreviousRequestId: -
+200 OK status code of request URI: https://localhost:7235/restaurant/orders/22222222-2222-2222-2222-222222222222
+2026-08-04 15:14:04.753 +03:00 [INF] RequestId: 0HNNI40L842FV:00000003, PreviousRequestId: -
+Rate limiting is disabled for route '/api/auth/{everything}' via the EnableRateLimiting option.
+2026-08-04 15:14:04.756 +03:00 [INF] RequestId: 0HNNI40L842FV:00000003, PreviousRequestId: -
+No authentication is required for the path '/api/auth/login' in the route /api/auth/{everything}.
+2026-08-04 15:14:07.357 +03:00 [INF] RequestId: 0HNNI40L842FV:00000003, PreviousRequestId: -
+200 OK status code of request URI: https://identityservices.runasp.net/api/auth/login
+2026-08-04 15:15:10.075 +03:00 [INF] RequestId: 0HNNI40L842FV:00000007, PreviousRequestId: -
+Rate limiting is disabled for route '/admin/orders/{everything}' via the EnableRateLimiting option.
+2026-08-04 15:15:10.078 +03:00 [INF] RequestId: 0HNNI40L842FV:00000007, PreviousRequestId: -
+The path '/admin/orders/statistics' is an authenticated route! AuthenticationMiddleware checking if client is authenticated...
+2026-08-04 15:15:10.079 +03:00 [INF] RequestId: 0HNNI40L842FV:00000007, PreviousRequestId: -
+Client has been authenticated for path '/admin/orders/statistics' by 'AuthenticationTypes.Federation' scheme.
+2026-08-04 15:15:10.254 +03:00 [INF] RequestId: 0HNNI40L842FV:00000007, PreviousRequestId: -
+200 OK status code of request URI: https://localhost:7235/admin/orders/statistics?FromDate=01-07-2026&ToDate=01-09-2026
+2026-08-04 15:15:36.506 +03:00 [INF] RequestId: 0HNNI40L842FV:00000009, PreviousRequestId: -
+Rate limiting is disabled for route '/admin/orders/{everything}' via the EnableRateLimiting option.
+2026-08-04 15:15:36.508 +03:00 [INF] RequestId: 0HNNI40L842FV:00000009, PreviousRequestId: -
+The path '/admin/orders/statistics' is an authenticated route! AuthenticationMiddleware checking if client is authenticated...
+2026-08-04 15:15:36.511 +03:00 [INF] RequestId: 0HNNI40L842FV:00000009, PreviousRequestId: -
+Client has been authenticated for path '/admin/orders/statistics' by 'AuthenticationTypes.Federation' scheme.
+2026-08-04 15:15:36.531 +03:00 [INF] RequestId: 0HNNI40L842FV:00000009, PreviousRequestId: -
+200 OK status code of request URI: https://localhost:7235/admin/orders/statistics?FromDate=07-01-2026&ToDate=09-01-2026
+2026-08-04 15:19:41.675 +03:00 [INF] RequestId: 0HNNI40L842FV:0000000B, PreviousRequestId: -
+Rate limiting is disabled for route '/admin/orders/{everything}' via the EnableRateLimiting option.
+2026-08-04 15:19:41.685 +03:00 [INF] RequestId: 0HNNI40L842FV:0000000B, PreviousRequestId: -
+The path '/admin/orders/statistics' is an authenticated route! AuthenticationMiddleware checking if client is authenticated...
+2026-08-04 15:19:41.689 +03:00 [INF] RequestId: 0HNNI40L842FV:0000000B, PreviousRequestId: -
+Client has been authenticated for path '/admin/orders/statistics' by 'AuthenticationTypes.Federation' scheme.
+2026-08-04 15:19:41.714 +03:00 [INF] RequestId: 0HNNI40L842FV:0000000B, PreviousRequestId: -
+200 OK status code of request URI: https://localhost:7235/admin/orders/statistics?FromDate=2026-07-01&ToDate=2026-09-01
+2026-08-04 22:23:17.577 +03:00 [INF] RequestId: 0HNNIBN2NC8OD:00000009, PreviousRequestId: -
+Rate limiting is disabled for route '/api/auth/{everything}' via the EnableRateLimiting option.
+2026-08-04 22:23:17.628 +03:00 [INF] RequestId: 0HNNIBN2NC8OD:00000009, PreviousRequestId: -
+No authentication is required for the path '/api/auth/login' in the route /api/auth/{everything}.
+2026-08-04 22:23:19.067 +03:00 [INF] RequestId: 0HNNIBN2NC8OD:00000009, PreviousRequestId: -
+200 OK status code of request URI: https://identityservices.runasp.net/api/auth/login
+2026-08-04 22:24:17.587 +03:00 [INF] RequestId: 0HNNIBN2NC8OD:0000000B, PreviousRequestId: -
+Rate limiting is disabled for route '/api/auth/{everything}' via the EnableRateLimiting option.
+2026-08-04 22:24:17.590 +03:00 [INF] RequestId: 0HNNIBN2NC8OD:0000000B, PreviousRequestId: -
+No authentication is required for the path '/api/auth/login' in the route /api/auth/{everything}.
+2026-08-04 22:24:17.916 +03:00 [INF] RequestId: 0HNNIBN2NC8OD:0000000B, PreviousRequestId: -
+200 OK status code of request URI: https://identityservices.runasp.net/api/auth/login
+2026-08-04 22:25:04.613 +03:00 [INF] RequestId: 0HNNIBN2NC8OD:0000000F, PreviousRequestId: -
+Rate limiting is disabled for route '/admin/orders/{everything}' via the EnableRateLimiting option.
+2026-08-04 22:25:04.617 +03:00 [INF] RequestId: 0HNNIBN2NC8OD:0000000F, PreviousRequestId: -
+The path '/admin/orders/statistics' is an authenticated route! AuthenticationMiddleware checking if client is authenticated...
+2026-08-04 22:25:04.621 +03:00 [INF] RequestId: 0HNNIBN2NC8OD:0000000F, PreviousRequestId: -
+Client has been authenticated for path '/admin/orders/statistics' by 'AuthenticationTypes.Federation' scheme.
+2026-08-04 22:25:07.205 +03:00 [INF] RequestId: 0HNNIBN2NC8OD:0000000F, PreviousRequestId: -
+200 OK status code of request URI: https://localhost:7235/admin/orders/statistics?FromDate=2026-07-01&ToDate=2026-09-01
+2026-08-04 22:25:25.122 +03:00 [INF] RequestId: 0HNNIBN2NC8OD:00000011, PreviousRequestId: -
+Rate limiting is disabled for route '/admin/orders/{everything}' via the EnableRateLimiting option.
+2026-08-04 22:25:25.124 +03:00 [INF] RequestId: 0HNNIBN2NC8OD:00000011, PreviousRequestId: -
+The path '/admin/orders/search' is an authenticated route! AuthenticationMiddleware checking if client is authenticated...
+2026-08-04 22:25:25.126 +03:00 [INF] RequestId: 0HNNIBN2NC8OD:00000011, PreviousRequestId: -
+Client has been authenticated for path '/admin/orders/search' by 'AuthenticationTypes.Federation' scheme.
+2026-08-04 22:25:25.235 +03:00 [INF] RequestId: 0HNNIBN2NC8OD:00000011, PreviousRequestId: -
+200 OK status code of request URI: https://localhost:7235/admin/orders/search?CustomerId=89a986e6-1c6d-4806-41ef-08deec89cb1e
+2026-08-04 22:27:02.173 +03:00 [INF] RequestId: 0HNNIBN2NC8OD:00000017, PreviousRequestId: -
+Rate limiting is disabled for route '/admin/orders/{everything}' via the EnableRateLimiting option.
+2026-08-04 22:27:02.177 +03:00 [INF] RequestId: 0HNNIBN2NC8OD:00000017, PreviousRequestId: -
+The path '/admin/orders/update-status' is an authenticated route! AuthenticationMiddleware checking if client is authenticated...
+2026-08-04 22:27:02.183 +03:00 [WRN] RequestId: 0HNNIBN2NC8OD:00000017, PreviousRequestId: -
+Client has NOT been authenticated for path '/admin/orders/update-status' and pipeline error set. UnauthenticatedError: Request for authenticated route '/admin/orders/update-status' was unauthenticated!;
+2026-08-04 22:27:02.190 +03:00 [WRN] RequestId: 0HNNIBN2NC8OD:00000017, PreviousRequestId: -
+ResponderMiddleware found 1 error ->
+UnauthenticatedError: Request for authenticated route '/admin/orders/update-status' was unauthenticated!
+Setting error response for request: POST /admin/orders/update-status
+2026-08-04 22:27:29.461 +03:00 [INF] RequestId: 0HNNIBN2NC8OD:00000019, PreviousRequestId: -
+Rate limiting is disabled for route '/admin/orders/{everything}' via the EnableRateLimiting option.
+2026-08-04 22:27:29.464 +03:00 [INF] RequestId: 0HNNIBN2NC8OD:00000019, PreviousRequestId: -
+The path '/admin/orders/update-status' is an authenticated route! AuthenticationMiddleware checking if client is authenticated...
+2026-08-04 22:27:29.466 +03:00 [INF] RequestId: 0HNNIBN2NC8OD:00000019, PreviousRequestId: -
+Client has been authenticated for path '/admin/orders/update-status' by 'AuthenticationTypes.Federation' scheme.
+2026-08-04 22:27:29.632 +03:00 [WRN] RequestId: 0HNNIBN2NC8OD:00000019, PreviousRequestId: -
+400 Bad Request status code of request URI: https://localhost:7235/admin/orders/update-status
+2026-08-04 22:28:38.325 +03:00 [INF] RequestId: 0HNNIBN2NC8OD:0000001B, PreviousRequestId: -
+Rate limiting is disabled for route '/admin/orders/{everything}' via the EnableRateLimiting option.
+2026-08-04 22:28:38.327 +03:00 [INF] RequestId: 0HNNIBN2NC8OD:0000001B, PreviousRequestId: -
+The path '/admin/orders/update-status' is an authenticated route! AuthenticationMiddleware checking if client is authenticated...
+2026-08-04 22:28:38.330 +03:00 [INF] RequestId: 0HNNIBN2NC8OD:0000001B, PreviousRequestId: -
+Client has been authenticated for path '/admin/orders/update-status' by 'AuthenticationTypes.Federation' scheme.
+2026-08-04 22:28:38.692 +03:00 [INF] RequestId: 0HNNIBN2NC8OD:0000001B, PreviousRequestId: -
+200 OK status code of request URI: https://localhost:7235/admin/orders/update-status
+2026-08-04 22:46:37.689 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:7126)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.InjectNewHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionWaiter`1.WaitForConnectionWithTelemetryAsync(HttpRequestMessage request, HttpConnectionPool pool, Boolean async, CancellationToken requestCancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at MMLib.SwaggerForOcelot.Repositories.DownstreamSwaggerDocsRepository.GetSwaggerJsonAsync(RouteOptions route, SwaggerEndPointOptions endPoint, String docsVersion)
+   at MMLib.SwaggerForOcelot.Middleware.SwaggerForOcelotMiddleware.Invoke(HttpContext context, ISwaggerEndPointProvider swaggerEndPointRepository, IDownstreamSwaggerDocsRepository downstreamSwaggerDocs)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.InvokeCore(HttpContext context, PathString matchedPath, PathString remainingPath)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-08-04 22:46:55.986 +03:00 [INF] RequestId: 0HNNIC4AUROL4:00000009, PreviousRequestId: -
+Rate limiting is disabled for route '/api/auth/{everything}' via the EnableRateLimiting option.
+2026-08-04 22:46:55.993 +03:00 [INF] RequestId: 0HNNIC4AUROL4:00000009, PreviousRequestId: -
+No authentication is required for the path '/api/auth/login' in the route /api/auth/{everything}.
+2026-08-04 22:46:56.816 +03:00 [INF] RequestId: 0HNNIC4AUROL4:00000009, PreviousRequestId: -
+200 OK status code of request URI: https://identityservices.runasp.net/api/auth/login
+2026-08-04 22:47:15.475 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:7235)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.InjectNewHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionWaiter`1.WaitForConnectionWithTelemetryAsync(HttpRequestMessage request, HttpConnectionPool pool, Boolean async, CancellationToken requestCancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at MMLib.SwaggerForOcelot.Repositories.DownstreamSwaggerDocsRepository.GetSwaggerJsonAsync(RouteOptions route, SwaggerEndPointOptions endPoint, String docsVersion)
+   at MMLib.SwaggerForOcelot.Middleware.SwaggerForOcelotMiddleware.Invoke(HttpContext context, ISwaggerEndPointProvider swaggerEndPointRepository, IDownstreamSwaggerDocsRepository downstreamSwaggerDocs)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.InvokeCore(HttpContext context, PathString matchedPath, PathString remainingPath)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-08-04 22:48:19.817 +03:00 [INF] RequestId: 0HNNIC4AUROL4:00000015, PreviousRequestId: -
+Rate limiting is disabled for route '/admin/orders/{everything}' via the EnableRateLimiting option.
+2026-08-04 22:48:19.820 +03:00 [INF] RequestId: 0HNNIC4AUROL4:00000015, PreviousRequestId: -
+The path '/admin/orders/search' is an authenticated route! AuthenticationMiddleware checking if client is authenticated...
+2026-08-04 22:48:19.824 +03:00 [INF] RequestId: 0HNNIC4AUROL4:00000015, PreviousRequestId: -
+Client has been authenticated for path '/admin/orders/search' by 'AuthenticationTypes.Federation' scheme.
+2026-08-04 22:48:20.347 +03:00 [INF] RequestId: 0HNNIC4AUROL4:00000015, PreviousRequestId: -
+200 OK status code of request URI: https://localhost:7235/admin/orders/search?page=1&pageSize=10
+2026-08-04 22:48:47.029 +03:00 [INF] RequestId: 0HNNIC4AUROL4:00000017, PreviousRequestId: -
+Rate limiting is disabled for route '/admin/orders/{everything}' via the EnableRateLimiting option.
+2026-08-04 22:48:47.039 +03:00 [INF] RequestId: 0HNNIC4AUROL4:00000017, PreviousRequestId: -
+The path '/admin/orders/search' is an authenticated route! AuthenticationMiddleware checking if client is authenticated...
+2026-08-04 22:48:47.043 +03:00 [INF] RequestId: 0HNNIC4AUROL4:00000017, PreviousRequestId: -
+Client has been authenticated for path '/admin/orders/search' by 'AuthenticationTypes.Federation' scheme.
+2026-08-04 22:48:47.088 +03:00 [INF] RequestId: 0HNNIC4AUROL4:00000017, PreviousRequestId: -
+200 OK status code of request URI: https://localhost:7235/admin/orders/search?orderNumber=ORD-000002&page=1&pageSize=10
+2026-08-04 22:48:58.954 +03:00 [INF] RequestId: 0HNNIC4AUROL4:00000019, PreviousRequestId: -
+Rate limiting is disabled for route '/admin/orders/{everything}' via the EnableRateLimiting option.
+2026-08-04 22:48:58.967 +03:00 [INF] RequestId: 0HNNIC4AUROL4:00000019, PreviousRequestId: -
+The path '/admin/orders/search' is an authenticated route! AuthenticationMiddleware checking if client is authenticated...
+2026-08-04 22:48:58.973 +03:00 [INF] RequestId: 0HNNIC4AUROL4:00000019, PreviousRequestId: -
+Client has been authenticated for path '/admin/orders/search' by 'AuthenticationTypes.Federation' scheme.
+2026-08-04 22:48:59.016 +03:00 [INF] RequestId: 0HNNIC4AUROL4:00000019, PreviousRequestId: -
+200 OK status code of request URI: https://localhost:7235/admin/orders/search?status=Accepted&page=1&pageSize=10
+2026-08-04 22:49:08.199 +03:00 [INF] RequestId: 0HNNIC4AUROL4:0000001B, PreviousRequestId: -
+Rate limiting is disabled for route '/admin/orders/{everything}' via the EnableRateLimiting option.
+2026-08-04 22:49:08.201 +03:00 [INF] RequestId: 0HNNIC4AUROL4:0000001B, PreviousRequestId: -
+The path '/admin/orders/search' is an authenticated route! AuthenticationMiddleware checking if client is authenticated...
+2026-08-04 22:49:08.204 +03:00 [INF] RequestId: 0HNNIC4AUROL4:0000001B, PreviousRequestId: -
+Client has been authenticated for path '/admin/orders/search' by 'AuthenticationTypes.Federation' scheme.
+2026-08-04 22:49:08.219 +03:00 [INF] RequestId: 0HNNIC4AUROL4:0000001B, PreviousRequestId: -
+200 OK status code of request URI: https://localhost:7235/admin/orders/search?status=Ready&page=1&pageSize=10
+2026-08-04 22:49:15.598 +03:00 [INF] RequestId: 0HNNIC4AUROL4:0000001D, PreviousRequestId: -
+Rate limiting is disabled for route '/admin/orders/{everything}' via the EnableRateLimiting option.
+2026-08-04 22:49:15.600 +03:00 [INF] RequestId: 0HNNIC4AUROL4:0000001D, PreviousRequestId: -
+The path '/admin/orders/search' is an authenticated route! AuthenticationMiddleware checking if client is authenticated...
+2026-08-04 22:49:15.603 +03:00 [INF] RequestId: 0HNNIC4AUROL4:0000001D, PreviousRequestId: -
+Client has been authenticated for path '/admin/orders/search' by 'AuthenticationTypes.Federation' scheme.
+2026-08-04 22:49:15.634 +03:00 [INF] RequestId: 0HNNIC4AUROL4:0000001D, PreviousRequestId: -
+200 OK status code of request URI: https://localhost:7235/admin/orders/search?status=Preparing&page=1&pageSize=10
+2026-08-04 22:49:51.283 +03:00 [INF] RequestId: 0HNNIC4AUROL4:0000001F, PreviousRequestId: -
+Rate limiting is disabled for route '/admin/orders/{everything}' via the EnableRateLimiting option.
+2026-08-04 22:49:51.286 +03:00 [INF] RequestId: 0HNNIC4AUROL4:0000001F, PreviousRequestId: -
+The path '/admin/orders/update-status' is an authenticated route! AuthenticationMiddleware checking if client is authenticated...
+2026-08-04 22:49:51.288 +03:00 [INF] RequestId: 0HNNIC4AUROL4:0000001F, PreviousRequestId: -
+Client has been authenticated for path '/admin/orders/update-status' by 'AuthenticationTypes.Federation' scheme.
+2026-08-04 22:49:51.736 +03:00 [INF] RequestId: 0HNNIC4AUROL4:0000001F, PreviousRequestId: -
+200 OK status code of request URI: https://localhost:7235/admin/orders/update-status
+2026-08-04 22:50:13.368 +03:00 [INF] RequestId: 0HNNIC4AUROL4:00000021, PreviousRequestId: -
+Rate limiting is disabled for route '/restaurant/orders/{everything}' via the EnableRateLimiting option.
+2026-08-04 22:50:13.371 +03:00 [INF] RequestId: 0HNNIC4AUROL4:00000021, PreviousRequestId: -
+The path '/restaurant/orders/pending' is an authenticated route! AuthenticationMiddleware checking if client is authenticated...
+2026-08-04 22:50:13.373 +03:00 [INF] RequestId: 0HNNIC4AUROL4:00000021, PreviousRequestId: -
+Client has been authenticated for path '/restaurant/orders/pending' by 'AuthenticationTypes.Federation' scheme.
+2026-08-04 22:50:13.401 +03:00 [WRN] RequestId: 0HNNIC4AUROL4:00000021, PreviousRequestId: -
+403 Forbidden status code of request URI: https://localhost:7235/restaurant/orders/pending?restaurantId=11111111-1111-1111-1111-111111111111
+2026-08-04 22:50:46.802 +03:00 [INF] RequestId: 0HNNIC4AUROL4:00000025, PreviousRequestId: -
+Rate limiting is disabled for route '/api/auth/{everything}' via the EnableRateLimiting option.
+2026-08-04 22:50:46.805 +03:00 [INF] RequestId: 0HNNIC4AUROL4:00000025, PreviousRequestId: -
+No authentication is required for the path '/api/auth/login' in the route /api/auth/{everything}.
+2026-08-04 22:50:47.265 +03:00 [INF] RequestId: 0HNNIC4AUROL4:00000025, PreviousRequestId: -
+200 OK status code of request URI: https://identityservices.runasp.net/api/auth/login
+2026-08-04 22:51:39.432 +03:00 [INF] RequestId: 0HNNIC4AUROL4:00000029, PreviousRequestId: -
+Rate limiting is disabled for route '/restaurant/orders/{everything}' via the EnableRateLimiting option.
+2026-08-04 22:51:39.435 +03:00 [INF] RequestId: 0HNNIC4AUROL4:00000029, PreviousRequestId: -
+The path '/restaurant/orders/22222222-2222-2222-2222-222222222222' is an authenticated route! AuthenticationMiddleware checking if client is authenticated...
+2026-08-04 22:51:39.437 +03:00 [INF] RequestId: 0HNNIC4AUROL4:00000029, PreviousRequestId: -
+Client has been authenticated for path '/restaurant/orders/22222222-2222-2222-2222-222222222222' by 'AuthenticationTypes.Federation' scheme.
+2026-08-04 22:52:05.122 +03:00 [WRN] RequestId: 0HNNIC4AUROL4:00000029, PreviousRequestId: -
+500 Internal Server Error status code of request URI: https://localhost:7235/restaurant/orders/22222222-2222-2222-2222-222222222222
+2026-08-04 22:52:32.706 +03:00 [INF] RequestId: 0HNNIC4AUROL4:0000002B, PreviousRequestId: -
+Rate limiting is disabled for route '/restaurant/orders/{everything}' via the EnableRateLimiting option.
+2026-08-04 22:52:32.721 +03:00 [INF] RequestId: 0HNNIC4AUROL4:0000002B, PreviousRequestId: -
+The path '/restaurant/orders/22222222-2222-2222-2222-222222222222' is an authenticated route! AuthenticationMiddleware checking if client is authenticated...
+2026-08-04 22:52:32.723 +03:00 [INF] RequestId: 0HNNIC4AUROL4:0000002B, PreviousRequestId: -
+Client has been authenticated for path '/restaurant/orders/22222222-2222-2222-2222-222222222222' by 'AuthenticationTypes.Federation' scheme.
+2026-08-04 22:53:54.123 +03:00 [INF] RequestId: 0HNNIC4AUROL4:0000002B, PreviousRequestId: -
+102 unknown status code of request URI: 
+2026-08-04 22:53:54.129 +03:00 [WRN] RequestId: 0HNNIC4AUROL4:0000002B, PreviousRequestId: -
+ResponderMiddleware found 1 error ->
+RequestCanceled: The operation was canceled.
+Setting error response for request: GET /restaurant/orders/22222222-2222-2222-2222-222222222222
+2026-08-04 22:54:47.630 +03:00 [INF] RequestId: 0HNNIC8M053Q3:00000009, PreviousRequestId: -
+Rate limiting is disabled for route '/restaurant/orders/{everything}' via the EnableRateLimiting option.
+2026-08-04 22:54:47.681 +03:00 [INF] RequestId: 0HNNIC8M053Q3:00000009, PreviousRequestId: -
+The path '/restaurant/orders/11111111-1111-1111-1111-111111111111' is an authenticated route! AuthenticationMiddleware checking if client is authenticated...
+2026-08-04 22:54:47.687 +03:00 [INF] RequestId: 0HNNIC8M053Q3:00000009, PreviousRequestId: -
+Client has been authenticated for path '/restaurant/orders/11111111-1111-1111-1111-111111111111' by 'AuthenticationTypes.Federation' scheme.
+2026-08-04 22:54:49.661 +03:00 [INF] RequestId: 0HNNIC8M053Q3:00000009, PreviousRequestId: -
+200 OK status code of request URI: https://localhost:7235/restaurant/orders/11111111-1111-1111-1111-111111111111
+2026-08-04 22:55:17.578 +03:00 [INF] RequestId: 0HNNIC8M053Q3:0000000B, PreviousRequestId: -
+Rate limiting is disabled for route '/restaurant/orders/{everything}' via the EnableRateLimiting option.
+2026-08-04 22:55:17.581 +03:00 [INF] RequestId: 0HNNIC8M053Q3:0000000B, PreviousRequestId: -
+The path '/restaurant/orders/22222222-2222-2222-2222-222222222222' is an authenticated route! AuthenticationMiddleware checking if client is authenticated...
+2026-08-04 22:55:17.582 +03:00 [INF] RequestId: 0HNNIC8M053Q3:0000000B, PreviousRequestId: -
+Client has been authenticated for path '/restaurant/orders/22222222-2222-2222-2222-222222222222' by 'AuthenticationTypes.Federation' scheme.
+2026-08-04 22:55:17.934 +03:00 [INF] RequestId: 0HNNIC8M053Q3:0000000B, PreviousRequestId: -
+200 OK status code of request URI: https://localhost:7235/restaurant/orders/22222222-2222-2222-2222-222222222222
+2026-08-04 22:58:24.091 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:7126)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.InjectNewHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionWaiter`1.WaitForConnectionWithTelemetryAsync(HttpRequestMessage request, HttpConnectionPool pool, Boolean async, CancellationToken requestCancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at MMLib.SwaggerForOcelot.Repositories.DownstreamSwaggerDocsRepository.GetSwaggerJsonAsync(RouteOptions route, SwaggerEndPointOptions endPoint, String docsVersion)
+   at MMLib.SwaggerForOcelot.Middleware.SwaggerForOcelotMiddleware.Invoke(HttpContext context, ISwaggerEndPointProvider swaggerEndPointRepository, IDownstreamSwaggerDocsRepository downstreamSwaggerDocs)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.InvokeCore(HttpContext context, PathString matchedPath, PathString remainingPath)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-08-04 22:58:44.506 +03:00 [INF] RequestId: 0HNNICATHN12T:00000009, PreviousRequestId: -
+Rate limiting is disabled for route '/api/auth/{everything}' via the EnableRateLimiting option.
+2026-08-04 22:58:44.513 +03:00 [INF] RequestId: 0HNNICATHN12T:00000009, PreviousRequestId: -
+No authentication is required for the path '/api/auth/login' in the route /api/auth/{everything}.
+2026-08-04 22:58:45.437 +03:00 [INF] RequestId: 0HNNICATHN12T:00000009, PreviousRequestId: -
+200 OK status code of request URI: https://identityservices.runasp.net/api/auth/login
+2026-08-04 22:59:29.123 +03:00 [INF] RequestId: 0HNNICATHN12T:0000000B, PreviousRequestId: -
+Rate limiting is disabled for route '/api/users/{everything}' via the EnableRateLimiting option.
+2026-08-04 22:59:29.128 +03:00 [INF] RequestId: 0HNNICATHN12T:0000000B, PreviousRequestId: -
+The path '/api/users/9d1fc52a-3469-4fe6-9302-08def1e533f2' is an authenticated route! AuthenticationMiddleware checking if client is authenticated...
+2026-08-04 22:59:29.132 +03:00 [INF] RequestId: 0HNNICATHN12T:0000000B, PreviousRequestId: -
+Client has been authenticated for path '/api/users/9d1fc52a-3469-4fe6-9302-08def1e533f2' by 'AuthenticationTypes.Federation' scheme.
+2026-08-04 22:59:29.528 +03:00 [INF] RequestId: 0HNNICATHN12T:0000000B, PreviousRequestId: -
+200 OK status code of request URI: https://identityservices.runasp.net/api/users/9d1fc52a-3469-4fe6-9302-08def1e533f2
+2026-08-04 23:00:22.807 +03:00 [INF] RequestId: 0HNNICATHN12T:0000000D, PreviousRequestId: -
+Rate limiting is disabled for route '/api/users/{everything}' via the EnableRateLimiting option.
+2026-08-04 23:00:22.810 +03:00 [INF] RequestId: 0HNNICATHN12T:0000000D, PreviousRequestId: -
+The path '/api/users/89a986e6-1c6d-4806-41ef-08deec89cb1e' is an authenticated route! AuthenticationMiddleware checking if client is authenticated...
+2026-08-04 23:00:22.812 +03:00 [INF] RequestId: 0HNNICATHN12T:0000000D, PreviousRequestId: -
+Client has been authenticated for path '/api/users/89a986e6-1c6d-4806-41ef-08deec89cb1e' by 'AuthenticationTypes.Federation' scheme.
+2026-08-04 23:00:22.952 +03:00 [INF] RequestId: 0HNNICATHN12T:0000000D, PreviousRequestId: -
+200 OK status code of request URI: https://identityservices.runasp.net/api/users/89a986e6-1c6d-4806-41ef-08deec89cb1e
+2026-08-04 23:01:12.102 +03:00 [INF] RequestId: 0HNNICATHN12T:0000000F, PreviousRequestId: -
+Rate limiting is disabled for route '/api/auth/{everything}' via the EnableRateLimiting option.
+2026-08-04 23:01:12.105 +03:00 [INF] RequestId: 0HNNICATHN12T:0000000F, PreviousRequestId: -
+No authentication is required for the path '/api/auth/login' in the route /api/auth/{everything}.
+2026-08-04 23:01:12.656 +03:00 [INF] RequestId: 0HNNICATHN12T:0000000F, PreviousRequestId: -
+200 OK status code of request URI: https://identityservices.runasp.net/api/auth/login
+2026-08-04 23:02:20.968 +03:00 [INF] RequestId: 0HNNICATHN12T:00000013, PreviousRequestId: -
+Rate limiting is disabled for route '/restaurant/orders/{everything}' via the EnableRateLimiting option.
+2026-08-04 23:02:20.971 +03:00 [INF] RequestId: 0HNNICATHN12T:00000013, PreviousRequestId: -
+The path '/restaurant/orders/22222222-2222-2222-2222-222222222222' is an authenticated route! AuthenticationMiddleware checking if client is authenticated...
+2026-08-04 23:02:20.973 +03:00 [INF] RequestId: 0HNNICATHN12T:00000013, PreviousRequestId: -
+Client has been authenticated for path '/restaurant/orders/22222222-2222-2222-2222-222222222222' by 'AuthenticationTypes.Federation' scheme.
+2026-08-04 23:02:22.977 +03:00 [INF] RequestId: 0HNNICATHN12T:00000013, PreviousRequestId: -
+200 OK status code of request URI: https://localhost:7235/restaurant/orders/22222222-2222-2222-2222-222222222222
+2026-08-04 23:05:54.634 +03:00 [INF] RequestId: 0HNNICATHN12T:00000017, PreviousRequestId: -
+Rate limiting is disabled for route '/api/users/{everything}' via the EnableRateLimiting option.
+2026-08-04 23:05:54.637 +03:00 [INF] RequestId: 0HNNICATHN12T:00000017, PreviousRequestId: -
+The path '/api/users/89a986e6-1c6d-4806-41ef-08deec89cb1e' is an authenticated route! AuthenticationMiddleware checking if client is authenticated...
+2026-08-04 23:05:54.640 +03:00 [INF] RequestId: 0HNNICATHN12T:00000017, PreviousRequestId: -
+Client has been authenticated for path '/api/users/89a986e6-1c6d-4806-41ef-08deec89cb1e' by 'AuthenticationTypes.Federation' scheme.
+2026-08-04 23:05:55.009 +03:00 [WRN] RequestId: 0HNNICATHN12T:00000017, PreviousRequestId: -
+403 Forbidden status code of request URI: https://identityservices.runasp.net/api/users/89a986e6-1c6d-4806-41ef-08deec89cb1e
+2026-08-04 23:07:29.833 +03:00 [INF] RequestId: 0HNNICATHN12T:00000019, PreviousRequestId: -
+Rate limiting is disabled for route '/api/auth/{everything}' via the EnableRateLimiting option.
+2026-08-04 23:07:29.837 +03:00 [INF] RequestId: 0HNNICATHN12T:00000019, PreviousRequestId: -
+No authentication is required for the path '/api/auth/login' in the route /api/auth/{everything}.
+2026-08-04 23:07:30.632 +03:00 [INF] RequestId: 0HNNICATHN12T:00000019, PreviousRequestId: -
+200 OK status code of request URI: https://identityservices.runasp.net/api/auth/login
+2026-08-04 23:07:54.306 +03:00 [INF] RequestId: 0HNNICATHN12T:0000001B, PreviousRequestId: -
+Rate limiting is disabled for route '/api/users/{everything}' via the EnableRateLimiting option.
+2026-08-04 23:07:54.308 +03:00 [INF] RequestId: 0HNNICATHN12T:0000001B, PreviousRequestId: -
+The path '/api/users/89a986e6-1c6d-4806-41ef-08deec89cb1e' is an authenticated route! AuthenticationMiddleware checking if client is authenticated...
+2026-08-04 23:07:54.310 +03:00 [INF] RequestId: 0HNNICATHN12T:0000001B, PreviousRequestId: -
+Client has been authenticated for path '/api/users/89a986e6-1c6d-4806-41ef-08deec89cb1e' by 'AuthenticationTypes.Federation' scheme.
+2026-08-04 23:07:54.646 +03:00 [WRN] RequestId: 0HNNICATHN12T:0000001B, PreviousRequestId: -
+403 Forbidden status code of request URI: https://identityservices.runasp.net/api/users/89a986e6-1c6d-4806-41ef-08deec89cb1e
+2026-08-04 23:18:19.962 +03:00 [INF] RequestId: 0HNNICATHN12U:00000009, PreviousRequestId: -
+Rate limiting is disabled for route '/api/users/{everything}' via the EnableRateLimiting option.
+2026-08-04 23:18:19.972 +03:00 [INF] RequestId: 0HNNICATHN12U:00000009, PreviousRequestId: -
+The path '/api/users/89a986e6-1c6d-4806-41ef-08deec89cb1e' is an authenticated route! AuthenticationMiddleware checking if client is authenticated...
+2026-08-04 23:18:19.976 +03:00 [INF] RequestId: 0HNNICATHN12U:00000009, PreviousRequestId: -
+Client has been authenticated for path '/api/users/89a986e6-1c6d-4806-41ef-08deec89cb1e' by 'AuthenticationTypes.Federation' scheme.
+2026-08-04 23:18:20.289 +03:00 [WRN] RequestId: 0HNNICATHN12U:00000009, PreviousRequestId: -
+403 Forbidden status code of request URI: https://identityservices.runasp.net/api/users/89a986e6-1c6d-4806-41ef-08deec89cb1e
+2026-08-04 23:18:42.803 +03:00 [INF] RequestId: 0HNNICATHN12U:0000000B, PreviousRequestId: -
+Rate limiting is disabled for route '/api/auth/{everything}' via the EnableRateLimiting option.
+2026-08-04 23:18:42.806 +03:00 [INF] RequestId: 0HNNICATHN12U:0000000B, PreviousRequestId: -
+No authentication is required for the path '/api/auth/login' in the route /api/auth/{everything}.
+2026-08-04 23:18:43.531 +03:00 [INF] RequestId: 0HNNICATHN12U:0000000B, PreviousRequestId: -
+200 OK status code of request URI: https://identityservices.runasp.net/api/auth/login
+2026-08-04 23:19:03.499 +03:00 [INF] RequestId: 0HNNICATHN12U:0000000D, PreviousRequestId: -
+Rate limiting is disabled for route '/api/users/{everything}' via the EnableRateLimiting option.
+2026-08-04 23:19:03.511 +03:00 [INF] RequestId: 0HNNICATHN12U:0000000D, PreviousRequestId: -
+The path '/api/users/89a986e6-1c6d-4806-41ef-08deec89cb1e' is an authenticated route! AuthenticationMiddleware checking if client is authenticated...
+2026-08-04 23:19:03.513 +03:00 [INF] RequestId: 0HNNICATHN12U:0000000D, PreviousRequestId: -
+Client has been authenticated for path '/api/users/89a986e6-1c6d-4806-41ef-08deec89cb1e' by 'AuthenticationTypes.Federation' scheme.
+2026-08-04 23:19:03.632 +03:00 [WRN] RequestId: 0HNNICATHN12U:0000000D, PreviousRequestId: -
+403 Forbidden status code of request URI: https://identityservices.runasp.net/api/users/89a986e6-1c6d-4806-41ef-08deec89cb1e
+2026-08-04 23:20:58.366 +03:00 [INF] RequestId: 0HNNICATHN12U:00000017, PreviousRequestId: -
+Rate limiting is disabled for route '/api/auth/{everything}' via the EnableRateLimiting option.
+2026-08-04 23:20:58.368 +03:00 [INF] RequestId: 0HNNICATHN12U:00000017, PreviousRequestId: -
+No authentication is required for the path '/api/auth/login' in the route /api/auth/{everything}.
+2026-08-04 23:20:58.835 +03:00 [INF] RequestId: 0HNNICATHN12U:00000017, PreviousRequestId: -
+200 OK status code of request URI: https://identityservices.runasp.net/api/auth/login
+2026-08-04 23:21:29.355 +03:00 [INF] RequestId: 0HNNICATHN12U:00000019, PreviousRequestId: -
+Rate limiting is disabled for route '/api/roles/{everything}' via the EnableRateLimiting option.
+2026-08-04 23:21:29.358 +03:00 [INF] RequestId: 0HNNICATHN12U:00000019, PreviousRequestId: -
+The path '/api/roles/89a986e6-1c6d-4806-41ef-08deec89cb1e' is an authenticated route! AuthenticationMiddleware checking if client is authenticated...
+2026-08-04 23:21:29.360 +03:00 [INF] RequestId: 0HNNICATHN12U:00000019, PreviousRequestId: -
+Client has been authenticated for path '/api/roles/89a986e6-1c6d-4806-41ef-08deec89cb1e' by 'AuthenticationTypes.Federation' scheme.
+2026-08-04 23:21:29.693 +03:00 [WRN] RequestId: 0HNNICATHN12U:00000019, PreviousRequestId: -
+403 Forbidden status code of request URI: https://identityservices.runasp.net/api/roles/89a986e6-1c6d-4806-41ef-08deec89cb1e
+2026-08-04 23:28:29.397 +03:00 [INF] RequestId: 0HNNICATHN12U:0000002B, PreviousRequestId: -
+Rate limiting is disabled for route '/api/auth/{everything}' via the EnableRateLimiting option.
+2026-08-04 23:28:29.399 +03:00 [INF] RequestId: 0HNNICATHN12U:0000002B, PreviousRequestId: -
+No authentication is required for the path '/api/auth/login' in the route /api/auth/{everything}.
+2026-08-04 23:28:30.141 +03:00 [INF] RequestId: 0HNNICATHN12U:0000002B, PreviousRequestId: -
+200 OK status code of request URI: https://identityservices.runasp.net/api/auth/login
+2026-08-04 23:29:02.850 +03:00 [INF] RequestId: 0HNNICATHN12U:0000002D, PreviousRequestId: -
+Rate limiting is disabled for route '/api/users/{everything}' via the EnableRateLimiting option.
+2026-08-04 23:29:02.861 +03:00 [INF] RequestId: 0HNNICATHN12U:0000002D, PreviousRequestId: -
+The path '/api/users/89a986e6-1c6d-4806-41ef-08deec89cb1e' is an authenticated route! AuthenticationMiddleware checking if client is authenticated...
+2026-08-04 23:29:02.865 +03:00 [INF] RequestId: 0HNNICATHN12U:0000002D, PreviousRequestId: -
+Client has been authenticated for path '/api/users/89a986e6-1c6d-4806-41ef-08deec89cb1e' by 'AuthenticationTypes.Federation' scheme.
+2026-08-04 23:29:03.208 +03:00 [WRN] RequestId: 0HNNICATHN12U:0000002D, PreviousRequestId: -
+403 Forbidden status code of request URI: https://identityservices.runasp.net/api/users/89a986e6-1c6d-4806-41ef-08deec89cb1e
+2026-08-04 23:43:14.581 +03:00 [INF] RequestId: 0HNNID3J7LA8S:0000000D, PreviousRequestId: -
+Rate limiting is disabled for route '/api/auth/{everything}' via the EnableRateLimiting option.
+2026-08-04 23:43:14.629 +03:00 [INF] RequestId: 0HNNID3J7LA8S:0000000D, PreviousRequestId: -
+No authentication is required for the path '/api/auth/login' in the route /api/auth/{everything}.
+2026-08-04 23:43:15.329 +03:00 [INF] RequestId: 0HNNID3J7LA8S:0000000D, PreviousRequestId: -
+200 OK status code of request URI: https://identityservices.runasp.net/api/auth/login
+2026-08-04 23:43:40.967 +03:00 [INF] RequestId: 0HNNID3J7LA8S:0000000F, PreviousRequestId: -
+Rate limiting is disabled for route '/api/auth/{everything}' via the EnableRateLimiting option.
+2026-08-04 23:43:40.969 +03:00 [INF] RequestId: 0HNNID3J7LA8S:0000000F, PreviousRequestId: -
+No authentication is required for the path '/api/auth/login' in the route /api/auth/{everything}.
+2026-08-04 23:43:41.235 +03:00 [INF] RequestId: 0HNNID3J7LA8S:0000000F, PreviousRequestId: -
+200 OK status code of request URI: https://identityservices.runasp.net/api/auth/login
+2026-08-04 23:43:56.414 +03:00 [INF] RequestId: 0HNNID3J7LA8S:00000011, PreviousRequestId: -
+Rate limiting is disabled for route '/api/users/{everything}' via the EnableRateLimiting option.
+2026-08-04 23:43:56.418 +03:00 [INF] RequestId: 0HNNID3J7LA8S:00000011, PreviousRequestId: -
+The path '/api/users/89a986e6-1c6d-4806-41ef-08deec89cb1e' is an authenticated route! AuthenticationMiddleware checking if client is authenticated...
+2026-08-04 23:43:56.422 +03:00 [INF] RequestId: 0HNNID3J7LA8S:00000011, PreviousRequestId: -
+Client has been authenticated for path '/api/users/89a986e6-1c6d-4806-41ef-08deec89cb1e' by 'AuthenticationTypes.Federation' scheme.
+2026-08-04 23:43:56.742 +03:00 [WRN] RequestId: 0HNNID3J7LA8S:00000011, PreviousRequestId: -
+403 Forbidden status code of request URI: https://identityservices.runasp.net/api/users/89a986e6-1c6d-4806-41ef-08deec89cb1e
+2026-08-04 23:46:22.693 +03:00 [INF] RequestId: 0HNNID3J7LA8S:0000001B, PreviousRequestId: -
+Rate limiting is disabled for route '/api/auth/{everything}' via the EnableRateLimiting option.
+2026-08-04 23:46:22.696 +03:00 [INF] RequestId: 0HNNID3J7LA8S:0000001B, PreviousRequestId: -
+No authentication is required for the path '/api/auth/login' in the route /api/auth/{everything}.
+2026-08-04 23:46:23.172 +03:00 [INF] RequestId: 0HNNID3J7LA8S:0000001B, PreviousRequestId: -
+200 OK status code of request URI: https://identityservices.runasp.net/api/auth/login
+2026-08-04 23:46:47.239 +03:00 [INF] RequestId: 0HNNID3J7LA8S:0000001D, PreviousRequestId: -
+Rate limiting is disabled for route '/api/users/{everything}' via the EnableRateLimiting option.
+2026-08-04 23:46:47.243 +03:00 [INF] RequestId: 0HNNID3J7LA8S:0000001D, PreviousRequestId: -
+The path '/api/users/89a986e6-1c6d-4806-41ef-08deec89cb1e' is an authenticated route! AuthenticationMiddleware checking if client is authenticated...
+2026-08-04 23:46:47.246 +03:00 [INF] RequestId: 0HNNID3J7LA8S:0000001D, PreviousRequestId: -
+Client has been authenticated for path '/api/users/89a986e6-1c6d-4806-41ef-08deec89cb1e' by 'AuthenticationTypes.Federation' scheme.
+2026-08-04 23:46:47.622 +03:00 [WRN] RequestId: 0HNNID3J7LA8S:0000001D, PreviousRequestId: -
+403 Forbidden status code of request URI: https://identityservices.runasp.net/api/users/89a986e6-1c6d-4806-41ef-08deec89cb1e

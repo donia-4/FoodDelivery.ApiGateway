@@ -1,0 +1,156 @@
+2026-08-02 05:11:45.953 +03:00 [INF] RequestId: 0HNNG7DBPSDKH:00000009, PreviousRequestId: -
+Rate limiting is disabled for route '/api/auth/{everything}' via the EnableRateLimiting option.
+2026-08-02 05:11:46.019 +03:00 [INF] RequestId: 0HNNG7DBPSDKH:00000009, PreviousRequestId: -
+No authentication is required for the path '/api/auth/login' in the route /api/auth/{everything}.
+2026-08-02 05:11:47.167 +03:00 [INF] RequestId: 0HNNG7DBPSDKH:00000009, PreviousRequestId: -
+200 OK status code of request URI: https://identityservices.runasp.net/api/auth/login
+2026-08-02 05:13:07.879 +03:00 [INF] RequestId: 0HNNG7DBPSDKH:0000000D, PreviousRequestId: -
+Rate limiting is disabled for route '/api/restaurants/{everything}' via the EnableRateLimiting option.
+2026-08-02 05:13:07.888 +03:00 [INF] RequestId: 0HNNG7DBPSDKH:0000000D, PreviousRequestId: -
+No authentication is required for the path '/api/restaurants' in the route /api/restaurants/{everything}.
+2026-08-02 05:13:08.042 +03:00 [WRN] RequestId: 0HNNG7DBPSDKH:0000000D, PreviousRequestId: -
+401 Unauthorized status code of request URI: https://localhost:7126/api/restaurants?pageNumber=1&pageSize=10
+2026-08-02 05:14:42.238 +03:00 [INF] RequestId: 0HNNG7DBPSDKH:00000013, PreviousRequestId: -
+Rate limiting is disabled for route '/api/restaurants/{everything}' via the EnableRateLimiting option.
+2026-08-02 05:14:42.241 +03:00 [INF] RequestId: 0HNNG7DBPSDKH:00000013, PreviousRequestId: -
+No authentication is required for the path '/api/restaurants/search' in the route /api/restaurants/{everything}.
+2026-08-02 05:14:42.255 +03:00 [WRN] RequestId: 0HNNG7DBPSDKH:00000013, PreviousRequestId: -
+401 Unauthorized status code of request URI: https://localhost:7126/api/restaurants/search?name=عم شلتت&pageNumber=1&pageSize=10
+2026-08-02 05:16:15.099 +03:00 [INF] RequestId: 0HNNG7FS4A0PK:00000009, PreviousRequestId: -
+Rate limiting is disabled for route '/api/auth/{everything}' via the EnableRateLimiting option.
+2026-08-02 05:16:15.150 +03:00 [INF] RequestId: 0HNNG7FS4A0PK:00000009, PreviousRequestId: -
+No authentication is required for the path '/api/auth/login' in the route /api/auth/{everything}.
+2026-08-02 05:16:15.657 +03:00 [INF] RequestId: 0HNNG7FS4A0PK:00000009, PreviousRequestId: -
+200 OK status code of request URI: https://identityservices.runasp.net/api/auth/login
+2026-08-02 05:16:39.239 +03:00 [INF] RequestId: 0HNNG7FS4A0PK:0000000D, PreviousRequestId: -
+Rate limiting is disabled for route '/api/restaurants/{everything}' via the EnableRateLimiting option.
+2026-08-02 05:16:39.242 +03:00 [INF] RequestId: 0HNNG7FS4A0PK:0000000D, PreviousRequestId: -
+No authentication is required for the path '/api/restaurants' in the route /api/restaurants/{everything}.
+2026-08-02 05:16:39.355 +03:00 [WRN] RequestId: 0HNNG7FS4A0PK:0000000D, PreviousRequestId: -
+401 Unauthorized status code of request URI: https://localhost:7126/api/restaurants?pageNumber=1&pageSize=10
+2026-08-02 05:38:18.012 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:7126)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.InjectNewHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionWaiter`1.WaitForConnectionWithTelemetryAsync(HttpRequestMessage request, HttpConnectionPool pool, Boolean async, CancellationToken requestCancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at MMLib.SwaggerForOcelot.Repositories.DownstreamSwaggerDocsRepository.GetSwaggerJsonAsync(RouteOptions route, SwaggerEndPointOptions endPoint, String docsVersion)
+   at MMLib.SwaggerForOcelot.Middleware.SwaggerForOcelotMiddleware.Invoke(HttpContext context, ISwaggerEndPointProvider swaggerEndPointRepository, IDownstreamSwaggerDocsRepository downstreamSwaggerDocs)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.InvokeCore(HttpContext context, PathString matchedPath, PathString remainingPath)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-08-02 05:41:33.622 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:7126)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.InjectNewHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionWaiter`1.WaitForConnectionWithTelemetryAsync(HttpRequestMessage request, HttpConnectionPool pool, Boolean async, CancellationToken requestCancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at MMLib.SwaggerForOcelot.Repositories.DownstreamSwaggerDocsRepository.GetSwaggerJsonAsync(RouteOptions route, SwaggerEndPointOptions endPoint, String docsVersion)
+   at MMLib.SwaggerForOcelot.Middleware.SwaggerForOcelotMiddleware.Invoke(HttpContext context, ISwaggerEndPointProvider swaggerEndPointRepository, IDownstreamSwaggerDocsRepository downstreamSwaggerDocs)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.InvokeCore(HttpContext context, PathString matchedPath, PathString remainingPath)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-08-02 05:56:57.435 +03:00 [INF] RequestId: 0HNNG86ITUM8B:00000009, PreviousRequestId: -
+Rate limiting is disabled for route '/api/auth/{everything}' via the EnableRateLimiting option.
+2026-08-02 05:56:57.501 +03:00 [INF] RequestId: 0HNNG86ITUM8B:00000009, PreviousRequestId: -
+No authentication is required for the path '/api/auth/login' in the route /api/auth/{everything}.
+2026-08-02 05:56:58.218 +03:00 [INF] RequestId: 0HNNG86ITUM8B:00000009, PreviousRequestId: -
+200 OK status code of request URI: https://identityservices.runasp.net/api/auth/login
+2026-08-02 05:57:23.062 +03:00 [INF] RequestId: 0HNNG86ITUM8B:0000000D, PreviousRequestId: -
+Rate limiting is disabled for route '/api/restaurants/{everything}' via the EnableRateLimiting option.
+2026-08-02 05:57:23.065 +03:00 [INF] RequestId: 0HNNG86ITUM8B:0000000D, PreviousRequestId: -
+No authentication is required for the path '/api/restaurants' in the route /api/restaurants/{everything}.
+2026-08-02 05:57:23.738 +03:00 [WRN] RequestId: 0HNNG86ITUM8B:0000000D, PreviousRequestId: -
+401 Unauthorized status code of request URI: https://localhost:7126/api/restaurants?pageNumber=1&pageSize=10
+2026-08-02 05:58:22.450 +03:00 [INF] RequestId: 0HNNG86ITUM8B:00000013, PreviousRequestId: -
+Rate limiting is disabled for route '/api/restaurants/{everything}' via the EnableRateLimiting option.
+2026-08-02 05:58:22.453 +03:00 [INF] RequestId: 0HNNG86ITUM8B:00000013, PreviousRequestId: -
+No authentication is required for the path '/api/restaurants' in the route /api/restaurants/{everything}.
+2026-08-02 05:58:22.564 +03:00 [WRN] RequestId: 0HNNG86ITUM8B:00000013, PreviousRequestId: -
+401 Unauthorized status code of request URI: https://localhost:7126/api/restaurants?pageNumber=1&pageSize=10
+2026-08-02 13:31:18.450 +03:00 [INF] RequestId: 0HNNGG4DD10LG:00000009, PreviousRequestId: -
+Rate limiting is disabled for route '/api/auth/{everything}' via the EnableRateLimiting option.
+2026-08-02 13:31:18.518 +03:00 [INF] RequestId: 0HNNGG4DD10LG:00000009, PreviousRequestId: -
+No authentication is required for the path '/api/auth/login' in the route /api/auth/{everything}.
+2026-08-02 13:31:19.352 +03:00 [INF] RequestId: 0HNNGG4DD10LG:00000009, PreviousRequestId: -
+200 OK status code of request URI: https://identityservices.runasp.net/api/auth/login
+2026-08-02 13:31:44.517 +03:00 [INF] RequestId: 0HNNGG4DD10LG:0000000D, PreviousRequestId: -
+Rate limiting is disabled for route '/api/restaurants/{everything}' via the EnableRateLimiting option.
+2026-08-02 13:31:44.519 +03:00 [INF] RequestId: 0HNNGG4DD10LG:0000000D, PreviousRequestId: -
+No authentication is required for the path '/api/restaurants' in the route /api/restaurants/{everything}.
+2026-08-02 13:31:45.229 +03:00 [WRN] RequestId: 0HNNGG4DD10LG:0000000D, PreviousRequestId: -
+401 Unauthorized status code of request URI: https://localhost:7126/api/restaurants?pageNumber=1&pageSize=10
+2026-08-02 13:34:36.588 +03:00 [INF] RequestId: 0HNNGG4DD10LG:00000011, PreviousRequestId: -
+Rate limiting is disabled for route '/api/users/{everything}' via the EnableRateLimiting option.
+2026-08-02 13:34:36.591 +03:00 [INF] RequestId: 0HNNGG4DD10LG:00000011, PreviousRequestId: -
+The path '/api/users/89a986e6-1c6d-4806-41ef-08deec89cb1e' is an authenticated route! AuthenticationMiddleware checking if client is authenticated...
+2026-08-02 13:34:36.596 +03:00 [WRN] RequestId: 0HNNGG4DD10LG:00000011, PreviousRequestId: -
+Client has NOT been authenticated for path '/api/users/89a986e6-1c6d-4806-41ef-08deec89cb1e' and pipeline error set. UnauthenticatedError: Request for authenticated route '/api/users/89a986e6-1c6d-4806-41ef-08deec89cb1e' was unauthenticated!;
+2026-08-02 13:34:36.601 +03:00 [WRN] RequestId: 0HNNGG4DD10LG:00000011, PreviousRequestId: -
+ResponderMiddleware found 1 error ->
+UnauthenticatedError: Request for authenticated route '/api/users/89a986e6-1c6d-4806-41ef-08deec89cb1e' was unauthenticated!
+Setting error response for request: GET /api/users/89a986e6-1c6d-4806-41ef-08deec89cb1e
+2026-08-02 13:34:48.586 +03:00 [INF] RequestId: 0HNNGG4DD10LG:00000013, PreviousRequestId: -
+Rate limiting is disabled for route '/api/users/{everything}' via the EnableRateLimiting option.
+2026-08-02 13:34:48.587 +03:00 [INF] RequestId: 0HNNGG4DD10LG:00000013, PreviousRequestId: -
+The path '/api/users/89a986e6-1c6d-4806-41ef-08deec89cb1e' is an authenticated route! AuthenticationMiddleware checking if client is authenticated...
+2026-08-02 13:34:48.590 +03:00 [WRN] RequestId: 0HNNGG4DD10LG:00000013, PreviousRequestId: -
+Client has NOT been authenticated for path '/api/users/89a986e6-1c6d-4806-41ef-08deec89cb1e' and pipeline error set. UnauthenticatedError: Request for authenticated route '/api/users/89a986e6-1c6d-4806-41ef-08deec89cb1e' was unauthenticated!;
+2026-08-02 13:34:48.592 +03:00 [WRN] RequestId: 0HNNGG4DD10LG:00000013, PreviousRequestId: -
+ResponderMiddleware found 1 error ->
+UnauthenticatedError: Request for authenticated route '/api/users/89a986e6-1c6d-4806-41ef-08deec89cb1e' was unauthenticated!
+Setting error response for request: GET /api/users/89a986e6-1c6d-4806-41ef-08deec89cb1e
+2026-08-02 13:35:42.401 +03:00 [INF] RequestId: 0HNNGG4DD10LG:00000015, PreviousRequestId: -
+Rate limiting is disabled for route '/api/users/{everything}' via the EnableRateLimiting option.
+2026-08-02 13:35:42.411 +03:00 [INF] RequestId: 0HNNGG4DD10LG:00000015, PreviousRequestId: -
+The path '/api/users/89a986e6-1c6d-4806-41ef-08deec89cb1e' is an authenticated route! AuthenticationMiddleware checking if client is authenticated...
+2026-08-02 13:35:42.416 +03:00 [WRN] RequestId: 0HNNGG4DD10LG:00000015, PreviousRequestId: -
+Client has NOT been authenticated for path '/api/users/89a986e6-1c6d-4806-41ef-08deec89cb1e' and pipeline error set. UnauthenticatedError: Request for authenticated route '/api/users/89a986e6-1c6d-4806-41ef-08deec89cb1e' was unauthenticated!;
+2026-08-02 13:35:42.417 +03:00 [WRN] RequestId: 0HNNGG4DD10LG:00000015, PreviousRequestId: -
+ResponderMiddleware found 1 error ->
+UnauthenticatedError: Request for authenticated route '/api/users/89a986e6-1c6d-4806-41ef-08deec89cb1e' was unauthenticated!
+Setting error response for request: GET /api/users/89a986e6-1c6d-4806-41ef-08deec89cb1e
+2026-08-02 13:37:40.950 +03:00 [INF] RequestId: 0HNNGG84GP8DO:00000009, PreviousRequestId: -
+Rate limiting is disabled for route '/api/auth/{everything}' via the EnableRateLimiting option.
+2026-08-02 13:37:40.998 +03:00 [INF] RequestId: 0HNNGG84GP8DO:00000009, PreviousRequestId: -
+No authentication is required for the path '/api/auth/login' in the route /api/auth/{everything}.
+2026-08-02 13:37:41.540 +03:00 [INF] RequestId: 0HNNGG84GP8DO:00000009, PreviousRequestId: -
+200 OK status code of request URI: https://identityservices.runasp.net/api/auth/login
+2026-08-02 13:38:17.424 +03:00 [INF] RequestId: 0HNNGG84GP8DO:0000000D, PreviousRequestId: -
+Rate limiting is disabled for route '/api/restaurants/{everything}' via the EnableRateLimiting option.
+2026-08-02 13:38:17.428 +03:00 [INF] RequestId: 0HNNGG84GP8DO:0000000D, PreviousRequestId: -
+No authentication is required for the path '/api/restaurants' in the route /api/restaurants/{everything}.
+2026-08-02 13:38:17.786 +03:00 [WRN] RequestId: 0HNNGG84GP8DO:0000000D, PreviousRequestId: -
+401 Unauthorized status code of request URI: https://localhost:7126/api/restaurants?pageNumber=1&pageSize=10

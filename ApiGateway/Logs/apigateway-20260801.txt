@@ -1,0 +1,18 @@
+2026-08-01 23:14:04.456 +03:00 [INF] RequestId: 0HNNG154KCN05:00000009, PreviousRequestId: -
+Rate limiting is disabled for route '/api/auth/{everything}' via the EnableRateLimiting option.
+2026-08-01 23:14:04.518 +03:00 [INF] RequestId: 0HNNG154KCN05:00000009, PreviousRequestId: -
+No authentication is required for the path '/api/auth/login' in the route /api/auth/{everything}.
+2026-08-01 23:14:05.803 +03:00 [INF] RequestId: 0HNNG154KCN05:00000009, PreviousRequestId: -
+200 OK status code of request URI: https://identityservices.runasp.net/api/auth/login
+2026-08-01 23:14:27.066 +03:00 [INF] RequestId: 0HNNG154KCN05:0000000D, PreviousRequestId: -
+Rate limiting is disabled for route '/api/restaurants/{everything}' via the EnableRateLimiting option.
+2026-08-01 23:14:27.069 +03:00 [INF] RequestId: 0HNNG154KCN05:0000000D, PreviousRequestId: -
+No authentication is required for the path '/api/restaurants' in the route /api/restaurants/{everything}.
+2026-08-01 23:14:27.226 +03:00 [WRN] RequestId: 0HNNG154KCN05:0000000D, PreviousRequestId: -
+401 Unauthorized status code of request URI: https://localhost:7126/api/restaurants?pageNumber=1&pageSize=10
+2026-08-01 23:16:31.940 +03:00 [INF] RequestId: 0HNNG154KCN05:00000013, PreviousRequestId: -
+Rate limiting is disabled for route '/api/restaurants/{everything}' via the EnableRateLimiting option.
+2026-08-01 23:16:31.943 +03:00 [INF] RequestId: 0HNNG154KCN05:00000013, PreviousRequestId: -
+No authentication is required for the path '/api/restaurants' in the route /api/restaurants/{everything}.
+2026-08-01 23:16:31.952 +03:00 [WRN] RequestId: 0HNNG154KCN05:00000013, PreviousRequestId: -
+401 Unauthorized status code of request URI: https://localhost:7126/api/restaurants?pageNumber=1&pageSize=10
