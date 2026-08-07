@@ -21,7 +21,7 @@ builder.Configuration
         optional: true,
         reloadOnChange: true)
     .AddJsonFile(
-        "Configuration/swagger.Endpoints.json",
+        $"Configuration/swagger.Endpoints.{builder.Environment.EnvironmentName}.json",
         optional: false,
         reloadOnChange: true);
 

@@ -132,11 +132,17 @@ public static class DependencyInjection
     }
 
     private static IServiceCollection AddGatewayOcelot(
-        this IServiceCollection services,
-        IConfiguration configuration)
+    this IServiceCollection services,
+    IConfiguration configuration)
     {
+        services.AddEndpointsApiExplorer();
+
+        services.AddSwaggerGen();
+
         services.AddOcelot(configuration);
+
         services.AddSwaggerForOcelot(configuration);
+
         return services;
     }
 }
