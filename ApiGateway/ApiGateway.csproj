@@ -24,8 +24,4 @@
 		<PackageReference Include="AspNetCore.HealthChecks.SqlServer" Version="9.0.0" />
 	</ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Configuration\" />
-  </ItemGroup>
-
 </Project>
