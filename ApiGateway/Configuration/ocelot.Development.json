@@ -187,6 +187,102 @@
             "AuthenticationOptions": {
                 "AuthenticationProviderKey": "Bearer"
             }
+        },
+        {
+            "UpstreamPathTemplate": "/customer/cart",
+            "UpstreamHttpMethod": [ "GET", "DELETE" ],
+            "DownstreamPathTemplate": "/customer/cart",
+            "DownstreamScheme": "https",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 7235
+                }
+            ],
+            "SwaggerKey": "order",
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Bearer"
+            }
+        },
+        {
+            "UpstreamPathTemplate": "/customer/cart/items",
+            "UpstreamHttpMethod": [ "POST" ],
+            "DownstreamPathTemplate": "/customer/cart/items",
+            "DownstreamScheme": "https",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 7235
+                }
+            ],
+            "SwaggerKey": "order",
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Bearer"
+            }
+        },
+        {
+            "UpstreamPathTemplate": "/customer/cart/items/{everything}",
+            "UpstreamHttpMethod": [ "PUT", "DELETE" ],
+            "DownstreamPathTemplate": "/customer/cart/items/{everything}",
+            "DownstreamScheme": "https",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 7235
+                }
+            ],
+            "SwaggerKey": "order",
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Bearer"
+            }
+        },
+        {
+            "UpstreamPathTemplate": "/customer/cart/checkout",
+            "UpstreamHttpMethod": [ "POST" ],
+            "DownstreamPathTemplate": "/customer/cart/checkout",
+            "DownstreamScheme": "https",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 7235
+                }
+            ],
+            "SwaggerKey": "order",
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Bearer"
+            }
+        },
+        {
+            "UpstreamPathTemplate": "/customer/orders",
+            "UpstreamHttpMethod": [ "POST" ],
+            "DownstreamPathTemplate": "/customer/orders",
+            "DownstreamScheme": "https",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 7235
+                }
+            ],
+            "SwaggerKey": "order",
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Bearer"
+            }
+        },
+        {
+            "UpstreamPathTemplate": "/customer/orders/{everything}",
+            "UpstreamHttpMethod": [ "GET", "PUT" ],
+            "DownstreamPathTemplate": "/customer/orders/{everything}",
+            "DownstreamScheme": "https",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 7235
+                }
+            ],
+            "SwaggerKey": "order",
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Bearer"
+            }
         }
     ],
 
